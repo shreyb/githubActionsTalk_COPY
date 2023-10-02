@@ -3,6 +3,9 @@ name: Orcasound processing
 on:
   # To run manually
   workflow_dispatch:
+  schedule:
+  - cron: '10 18 02 10 *'
+  
 
 jobs:
   process:
