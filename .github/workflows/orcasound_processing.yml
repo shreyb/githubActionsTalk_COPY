@@ -3,7 +3,7 @@ name: Orcasound processing
 on:
   # To run manually
   schedule:
-  - cron: '18 18 2 10 *'
+  - cron: '25 18 2 10 *'
   
 
 jobs:
